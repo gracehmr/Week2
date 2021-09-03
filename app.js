@@ -8,14 +8,14 @@
 //   }
 
 
-let btn = document.getElementsByClassName("btn");
-let cleanser = document.getElementById("cleanser");
-buttonClick.onclick = function(){
-    if(cleanser.style.display == "block") {
-        (cleanser.style.display = "none")
-    }
-    else{
-        cleanser.style.display = "block";
-    }
+// let btn = document.getElementsByClassName("btn");
+// let cleanser = document.getElementById("cleanser");
+// buttonClick.onclick = function(){
+//     if(cleanser.style.display == "block") {
+//         (cleanser.style.display = "none")
+//     }
+//     else{
+//         cleanser.style.display = "block";
+//     }
 
-}
+// }
