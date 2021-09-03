@@ -1,0 +1,130 @@
+body {
+    background-color:rgb(253, 253, 244);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+/*top navigation bar*/
+
+.topnav {
+    background-color:rgb(253, 201, 219);
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    padding: 6px;
+}
+
+.topnav a{
+    color:rgb(253, 253, 244);
+
+}
+
+.topnav a:hover {
+    background-color:rgb(253, 253, 244);
+    padding: 6px;
+    color:rgb(253, 201, 219);
+}
+
+
+
+
+/*header image and title*/
+
+.hero-image {
+    background-image: url("https://images.pexels.com/photos/4041251/pexels-photo-4041251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+
+h2 {
+    text-align: center;
+    color: rgba(87, 87, 87, 0.89);
+    font-family: 'Inconsolata', monospace;
+    padding-top: 45px;
+    letter-spacing: 0.4em;
+   
+}
+
+/*split screen in half*/
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 10;
+    overflow: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+/*styling h3 headers*/
+
+
+h3{
+    color:rgba(87, 87, 87, 0.89);
+    font-family: 'Inconsolata', monospace;
+    text-align:center;
+}
+
+
+  
+/*left side of split screen, including buttons for products*/
+
+.left {
+    left: 0;
+    background-color: rgb(247, 245, 248);
+    border: 2px solid rgba(87, 87, 87, 0.89);
+    margin: 3px;
+    
+    }
+
+button {
+        position: relative;
+        left: 15px;
+        outline: none;
+        font-weight: 800;
+        font-size: 15px;
+        letter-spacing: 0.25em;
+        background-color:rgb(253, 201, 219);
+        color: white;
+        border-radius: 6px;
+        background-size: 125% 125%;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 12px;
+        margin: 1em;
+    }
+
+    
+    
+    /*right side of split screen with ingredients*/
+
+
+.right {
+    right: 0;
+    background-color: rgb(253, 252, 230);
+    text-align:center;
+    border: 2px solid rgb(87, 87, 87, 0.89);
+    margin: 3px;
+  }
+
+  /*styling for unordered list on right side*/
+
+  ul {
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  
+  /*styling paragraphs*/
+
+
+p {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    padding: 25px;
+    color: rgba(87, 87, 87, 0.89);
+}
