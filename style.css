@@ -3,24 +3,25 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
-
-/*top navigation bar*/
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+              /*top navigation bar*/
 
 .topnav {
-    background-color:rgb(253, 201, 219);
+    background-color:rgb(252, 228, 236);
     overflow: hidden;
     text-align: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Yantramanav', sans-serif;
     padding: 6px;
+    word-spacing: 45px;
 }
 
 .topnav a{
-    color:rgb(253, 253, 244);
+    color:rgb(170, 170, 167);
 
 }
 
 .topnav a:hover {
-    background-color:rgb(253, 253, 244);
+    background-color:rgb(247, 239, 231);
     padding: 6px;
     color:rgb(253, 201, 219);
 }
@@ -28,40 +29,41 @@ body {
 
 
 
-/*header image and title*/
+                /*header image and title*/
 
 .hero-image {
     background-image: url("https://images.pexels.com/photos/4041251/pexels-photo-4041251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
     background-position-x: center;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 
 
 h2 {
     text-align: center;
-    color: rgba(87, 87, 87, 0.89);
+    color: rgba(43, 42, 42, 0.89);
     font-family: 'Inconsolata', monospace;
     padding-top: 45px;
     letter-spacing: 0.4em;
    
 }
 
-/*split screen in half*/
+                /*split screen in half*/
 
 .split {
     height: 100%;
     width: 50%;
-    position: fixed;
+    position:fixed;
     z-index: 1;
     top: 10;
     overflow: auto;
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
   }
 
-
-/*styling h3 headers*/
+                    /*styling h3 headers*/
 
 
 h3{
@@ -72,15 +74,17 @@ h3{
 
 
   
-/*left side of split screen, including buttons for products*/
+                /*left side of split screen*/
 
 .left {
     left: 0;
     background-color: rgb(247, 245, 248);
     border: 2px solid rgba(87, 87, 87, 0.89);
-    margin: 3px;
+    margin: 6px;
     
     }
+
+                    /*button styling*/
 
 button {
         position: relative;
@@ -96,11 +100,16 @@ button {
         text-transform: uppercase;
         text-shadow: 2px 2px 12px;
         margin: 1em;
+        
     }
 
+
+    div {
+        font-family: 'Inconsolata', monospace;
+    }
     
     
-    /*right side of split screen with ingredients*/
+            /*right side of split screen*/
 
 
 .right {
@@ -108,10 +117,23 @@ button {
     background-color: rgb(253, 252, 230);
     text-align:center;
     border: 2px solid rgb(87, 87, 87, 0.89);
-    margin: 3px;
+    margin: 6px;
+    background-image: linear-gradient(rgb(250, 219, 224), rgb(248, 248, 219), rgb(248, 232, 248), rgb(218, 203, 218), rgb(248, 213, 219), rgb(245, 245, 198), rgb(250, 215, 250), rgb(216, 166, 216));
   }
 
-  /*styling for unordered list on right side*/
+            /*image opacity and shape*/
+
+img {
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 0.8;
+    transition-duration: 3s;
+    
+}
+        /*styling for unordered list on right side*/
 
   ul {
       font-family: 'Courier New', Courier, monospace;
@@ -128,3 +150,7 @@ p {
     padding: 25px;
     color: rgba(87, 87, 87, 0.89);
 }
+
+
+
+

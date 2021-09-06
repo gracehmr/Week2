@@ -42,36 +42,56 @@
         
         <!--buttons on left side-->
 
+        <!--button one-->
       <div>
-        <button class="btn" onclick="toggleText()"><i class="fas fa-soap"></i>Cleanser</button>
+        <button id="btn1" onclick="toggleText()"><i class="fas fa-soap"></i>Cleanser</button>
       </div>
 
+      <div id="cleanser" style="display:none">Use twice daily</div>
+
+      <!--button two-->
+
       <div>
-  <button class="btn"><i class="fas fa-spray-can"></i>Toner</button>
-</div>
-<div id = "cleanser"></div>
+        <button id="btn2" onclick="toggleText1()"><i class="fas fa-spray-can"></i>Toner</button>
+      </div>
 
+      <div id="toner" style="display:none">Use after cleansing</div>
 
-<div>
-        <button class="btn"><i class="fas fa-vial"></i>Serum</button>
-</div>
+      <!--button three-->
 
-<div>
-        <button class="btn"><i class="fas fa-pump-soap"></i>Moisturiser</button>
-</div>
+      <div>
+        <button id="btn3" onclick="toggleText2()"><i class="fas fa-vial"></i>Serum</button>
+      </div>
 
-<div>
-        <button class="btn"><i class="fas fa-magic"></i>Exfoliator</button>
-</div>
+      <div id="serum" style="display:none">Targeted treatment to use morning and night</div>
 
-<div>
-        <button class="btn"><i class="fas fa-mortar-pestle"></i>Mask</button>
-</div>
+      <!--button four-->
+
+      <div>
+        <button id="btn4" onclick="toggleText3()"><i class="fas fa-pump-soap"></i>Moisturiser</button>
+      </div>
+
+      <div id="moisturiser" style="display:none">Use morning and night to hydrate</div>
+
+      <!--button five-->
+
+      <div>
+        <button id="btn5" onclick="toggleText4()"><i class="fas fa-magic"></i>Exfoliator</button>
+      </div>
+
+      <div id="exfoliator" style="display:none">Can be chemical or physical - use two/three times a week</div>
+
+      <!--button six-->
+
+      <div>
+        <button id="btn6" onclick="toggleText5()"><i class="fas fa-mortar-pestle"></i>Mask</button>
+      </div>
+
+      <div id="mask" style="display:none">Treatment to use once or twice a week</div>
 
           </p>
         </div>
       </div>
-      
      
      
      
@@ -103,7 +123,7 @@
 
 
     
-<script>scr="app.js"</script>
+      <script src="app.js"></script>
 
 </body>
 </html>
